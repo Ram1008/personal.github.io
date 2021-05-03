@@ -1,0 +1,191 @@
+*{
+    /* margin: 0; */
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: auto auto;
+    /* grid-gap: 2rem; */
+    /* border: 2px solid black; */
+    justify-content: center;
+    height: 100%;
+}
+#navbar img{
+   
+    height: 250px;
+    width: 200px;
+   
+    border: 2px solid  rgb(223, 223, 223);
+    border-radius: 50%;
+    margin-top: 30%;
+    
+}
+#navbar div h2{
+    font-style: bold;
+    font-size: 1.6em;
+    padding: 3px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#profilePhoto{
+}  
+#navbar{
+   display: block;
+   position: sticky;
+   background-color: rgb(233, 233, 233);
+   text-align: center;
+   height: 100%;
+   scroll-behavior: stop;
+}
+#navbar ul{
+   text-decoration: none;
+   align-items: center;
+}
+#navbar ul li{
+   text-decoration: none;
+   padding: 10px;
+   font-family: 'Baloo Bhai', cursive;
+}
+#navbar ul li a{
+    text-decoration: none;
+    padding: 25px;
+    color:rgb(110, 110, 110);
+    font-size: 1.2rem;
+}
+#navbar ul li a:hover{
+    color: black;
+}
+#AboutMe p{
+    display: block;
+    margin: 20px;
+    align-items: center center;
+}
+.h-primary{
+    align-items: center;
+    text-align: center;
+   font-size: 2.3em;
+    padding: 5px;
+    font-family: 'Bree Serif', serif;
+}
+#AboutMe {
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* width: 80%;
+    height: 90%; */
+    padding: 34px;
+    margin: 5px;
+    text-align: center left ;
+}
+#footer{
+    background-color: black;
+    color: blanchedalmond;
+    grid-column: span 2;
+   
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+#footer img{
+    width: 100px;
+    height: 100px;
+   
+}
+#Projects p{
+    display: block;
+    margin: 20px;
+    align-items: center center;
+}
+#Projects {
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* width: 80%;
+    height: 90%; */
+    padding: 34px;
+    margin: 5px;
+    text-align: center left ;
+}
+#projects ul{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+#projects ul li{
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    margin-left: 40px;
+
+}
+#projects p{
+    color: rgb(56, 56, 56);
+
+}
+#Projects p{
+    display: block;
+    margin: 20px;
+    align-items: center center;
+}
+#Qualifications {
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+    padding: 34px;
+    margin: 5px;
+    text-align: center left ;
+}
+
+#Qualifications ul li{
+    
+    padding: 5px;
+   
+    margin-left: 40px;
+
+}
+#Qualifications p{
+    color: rgb(48, 48, 48);
+
+}
+#OtherActivities {
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+    padding: 34px;
+    margin: 5px;
+    text-align: center left ;
+}
+
+#OtherActivities ul li{
+    
+    padding: 5px;
+   
+    margin-left: 40px;
+
+}
+#OtherActivities p{
+    color: rgb(48, 48, 48);
+
+ {
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+    padding: 34px;
+    margin: 5px;
+    
+}
+
+#OtherActivities ul li{
+    
+    padding: 5px;
+   
+    margin-left: 40px;
+
+}
+#OtherActivities p{
+    color: rgb(48, 48, 48);
+
+}
